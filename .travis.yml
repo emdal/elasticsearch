@@ -3,8 +3,7 @@ install: true
 
 
 dist: trusty
-jdk:
-  - oraclejdk11
+
 
 
 branches:
