@@ -4,18 +4,16 @@ install: true
 
 dist: trusty
 jdk:
-  - openjdk13
-  - openjdk-ea
+  - oraclejdk8
 
-
-matrix:
-  allow_failures:
-    - jdk: openjdk-ea
+env:
+ global:
+ - JAVA8_HOME
 
 branches:
   only:
   - master
-  - v7.6.0
+  - v7.6
     
 
 script:
