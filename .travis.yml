@@ -4,11 +4,8 @@ install: true
 
 dist: trusty
 jdk:
-  - oraclejdk8
+  - oraclejdk11
 
-env:
- global:
- - JAVA8_HOME
 
 branches:
   only:
